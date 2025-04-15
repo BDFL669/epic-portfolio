@@ -953,6 +953,9 @@ section {
   border-radius: 50%;
   padding: 1rem;
 }
+.icons i {
+  object-fit: contain;
+}
 
 .main-btn::before {
   content: '';
