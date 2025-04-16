@@ -1068,7 +1068,7 @@ section {
   .controlls .control {
     margin: 1rem .3rem;
   }
-  button.submit {
+  button.submit-button {
   background-color: #27AE60;
   color: white;
   font-family: 'Poppins', Ariel;
@@ -1080,7 +1080,7 @@ section {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-button.submit:hover {
+button.submit-button:hover {
   background-color: #219150;
   transform: scale(1.03);
 }
