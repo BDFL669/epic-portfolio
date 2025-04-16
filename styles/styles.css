@@ -1068,8 +1068,8 @@ section {
   .controlls .control {
     margin: 1rem .3rem;
   }
-  button.submit-button {
-  background-color: #27AE60;
+  .right-contact .contact-form .submit-button {
+  background-color: #27AE60 !important;
   color: white;
   font-family: 'Poppins', Ariel;
   padding: 12px 24px;
@@ -1080,7 +1080,7 @@ section {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-button.submit-button:hover {
+.contact-form .submit-button:hover {
   background-color: #219150;
   transform: scale(1.03);
 }
