@@ -536,28 +536,39 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="https://formsubmit.co/anvilicious1@gmail.com" method="POST" class="contact-form">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                            <!-- Access Key -->
+                            <input type="hidden" name="access_key" value="d113971b-b219-4a78-884f-1517db757201">
+                          
+                            <!-- Redirect after success -->
+                            <input type="hidden" name="redirect" value="https://nigel-lowa-porfolio.netlify.app/thankyou.html">
+                          
+                            <!-- Email subject -->
+                            <input type="hidden" name="subject" value="New Submission from Portfolio Contact Form">
+                          
                             <div class="input-control i-c-2">
-                                <input type="hidden" name="_subject" value="New submission!">
-                                <input type="text" required placeholder="YOUR NAME" required>
-                                <input type="hidden" name="_next" value="https://nigel-lowa-porfolio.netlify.app/thankyou.html">
-                                <input type="email" required placeholder="YOUR EMAIL" required>
+                              <input type="text" name="name" required placeholder="YOUR NAME">
+                              <input type="email" name="email" required placeholder="YOUR EMAIL">
                             </div>
+                          
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT" required>
+                              <input type="text" name="subject" required placeholder="ENTER SUBJECT">
                             </div>
+                          
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                              <textarea name="message" cols="15" rows="8" placeholder="Message Here..." required></textarea>
                             </div>
+                          
                             <div>
-                                <button type="submit" class="submit-button" 
-  style="background-color: #27AE60 !important; color: white; font-family: 'Poppins', Ariel; padding: 12px 24px; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease, transform 0.2s ease;"
-  onmouseover="this.style.backgroundColor='#219150'; this.style.transform='scale(1.03)';" 
-  onmouseout="this.style.backgroundColor='#27AE60'; this.style.transform='scale(1)';">
-  Submit
-</button>
+                              <button type="submit" class="submit-button" 
+                                style="background-color: #27AE60 !important; color: white; font-family: 'Poppins', Arial; padding: 12px 24px; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease, transform 0.2s ease;"
+                                onmouseover="this.style.backgroundColor='#219150'; this.style.transform='scale(1.03)';" 
+                                onmouseout="this.style.backgroundColor='#27AE60'; this.style.transform='scale(1)';">
+                                Submit
+                              </button>
                             </div>
-                        </form>
+                          </form>
+                          
                     </div>
                 </div>
             </div>
